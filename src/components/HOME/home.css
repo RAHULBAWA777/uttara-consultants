@@ -1,0 +1,23 @@
+#homeMainDiv {
+    display: flex;
+    margin-left: 25%;
+    background-color: pink;
+    width: 75%;
+}
+
+/* #################################################################################################################### */
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+    #homeMainDiv {
+        display: flex;
+        margin-left: 0;
+        width: 100%;
+        background-color: pink;
+    }
+}
+
+/* ==========MEDIA QUERIES (small devices) ========= */
+@media screen and (max-width:600px) {
+
+}
