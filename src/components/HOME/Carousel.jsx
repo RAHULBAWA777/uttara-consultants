@@ -6,22 +6,34 @@ import './carousel.css'
 
 
 const Carousel = () => {
-    const options={
-        animateOut: 'fadeOut',
-    }
+    const options = {
+        responsive:{
+            0:{
+                items:1,
+                
+            },
+            600:{
+                items:3,
+              
+            },
+            1024:{
+                items:5,
+               
+            }
+        }
+    };
     return (
         <>
-            <OwlCarousel className='owl-theme' width={78} height={100}  dots={false} loop margin={10} items={1} autoplay={true} nav>
-                <div className='item' >
-                    <h1>Innovate Designing in Toronto</h1>
-                    <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/1.jpg" alt="img" />
-                </div>
-                <div className='item'>
-                <h1>Innovate Designing in Toronto</h1>
-                    <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/2.jpg" alt="img" />
-                </div>
-             
+
+            <OwlCarousel className='owl-theme' items={1} width={78} height={100} dots={false} autoplay={true} lazyLoad={true}  responsive>
+        
+                <div className='item'><h1>Innovate Designing in Toronto</h1>
+                <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/1.jpg" alt="img" /></div>
+
+                <div className='item'><h1>Innovate Designing in Toronto</h1>
+                <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/2.jpg" alt="img" /></div>
             </OwlCarousel>;
+
         </>
     )
 }

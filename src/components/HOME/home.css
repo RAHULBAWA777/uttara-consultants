@@ -1,8 +1,44 @@
 #homeMainDiv {
     display: flex;
+    flex-direction: column;
     margin-left: 25%;
-    background-color: pink;
+    /* background-color: pink; */
     width: 75%;
+}
+
+/* ############  COMMON HEADER  ################ */
+.commonHeading {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.commonHeading:first-child span {
+    color: whitesmoke;
+}
+
+.commonHeading:nth-child(1) {
+    color: var(--main-color);
+}
+/* ############  COMMON CAPTION  ################ */
+.commonCaption {
+   
+    text-transform: uppercase;
+}
+
+.commonCaption:first-child p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.commonCaption:nth-child(1) {
+    color: var(--main-color);
+    font-size: 1rem;
+}
+
+.commonPara {
+    color: var(--secondary-color);
+    font-size: large;
+    line-height: 2rem;
 }
 
 /* #################################################################################################################### */
@@ -18,6 +54,4 @@
 }
 
 /* ==========MEDIA QUERIES (small devices) ========= */
-@media screen and (max-width:600px) {
-
-}
+@media screen and (max-width:600px) {}

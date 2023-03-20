@@ -9,6 +9,8 @@ const Navbar = () => {
     const handleResize = ()=>{
       if (window.innerWidth < 1024 && isOpen) {
         setIsopen(false)
+      }else if(window.innerWidth > 1024){
+        setIsopen(true)
       }
     };
   window.addEventListener("resize", handleResize);

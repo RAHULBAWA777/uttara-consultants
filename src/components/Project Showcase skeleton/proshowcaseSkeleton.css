@@ -1,0 +1,37 @@
+#projectCardsWrapper {
+    background-color: rgb(91, 91, 152);
+    position: relative;
+    width: fit-content;
+    transition: all 1s;
+}
+
+#projectCardsWrapper>img {
+    max-height: 20rem;
+    object-fit: cover;
+}
+
+#projectCardsWrapper>img:hover {
+    transition: ease-in-out .5s;
+    transform: scale(.95);
+}
+
+.caption {
+    position: absolute;
+    background-color: aqua;
+    transition: all 5s;
+    display: none;
+}
+
+#projectCardsWrapper:hover .caption {
+    animation: hideMe 1s forwards;
+    display: block;
+    bottom: -1rem;
+}
+@keyframes hideMe{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
