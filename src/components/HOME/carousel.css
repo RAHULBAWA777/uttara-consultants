@@ -1,9 +1,9 @@
 .owl-theme {
-    background-color: rgb(132, 180, 180);
+    /* background-color: rgb(132, 180, 180); */
 }
  
 .item>h1 {
-    color: rgb(220, 220, 220);
+    color: whitesmoke;
     position: absolute;
     margin: 10rem 30rem;
     z-index: 2;
@@ -15,7 +15,7 @@
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 2rem;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .item>img {

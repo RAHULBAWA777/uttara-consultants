@@ -24,3 +24,7 @@ html{
     background-color:var(--main-bg) ;
     font-family: 'Oswald', sans-serif;
   }
+
+  .pad{
+    padding: 3rem 2rem;
+  }

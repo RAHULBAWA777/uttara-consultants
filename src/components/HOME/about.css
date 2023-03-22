@@ -2,7 +2,6 @@
     /* background-color: blue; */
     width: 100%;
     height: fit-content;
-    padding: 2rem;
     display: flex;
 }
 
@@ -29,6 +28,12 @@
         align-items: center;
         justify-content: center;
     }
+    .aboutLeft{
+        width: 100%;
+    }
+    .aboutRight{
+        margin-top: 2rem;
+     }
 }
 
 /* ==========MEDIA QUERIES (small devices) ========= */

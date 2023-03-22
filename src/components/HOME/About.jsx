@@ -4,7 +4,7 @@ import bussinessCard from '../../assets/Uttara logo for card 2.jpg'
 const About = () => {
     return (
         <>
-            <div className='aboutWrapper'>
+            <div className='aboutWrapper pad'>
                 <div className="aboutLeft">
                     <h1 className='commonHeading'><span>about</span> uttara</h1>
                     <p className="commonPara">The Company has a wide range of experience in offering Architecture

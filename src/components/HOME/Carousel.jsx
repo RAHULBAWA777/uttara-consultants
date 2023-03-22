@@ -25,7 +25,7 @@ const Carousel = () => {
     return (
         <>
 
-            <OwlCarousel className='owl-theme' items={1} width={78} height={100} dots={false} autoplay={true} lazyLoad={true}  responsive>
+            <OwlCarousel className='owl-theme' items={1} width={78} height={100} dots={false} autoplay={true} lazyLoad={true} >
         
                 <div className='item'><h1>Innovate Designing in Toronto</h1>
                 <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/1.jpg" alt="img" /></div>

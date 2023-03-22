@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     margin-left: 25%;
-    /* background-color: pink; */
     width: 75%;
+    /* background-image: url(../../assets/header-pattern.png); */
 }
 
 /* ############  COMMON HEADER  ################ */
 .commonHeading {
     font-size: 4rem;
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 .commonHeading:first-child span {
@@ -21,7 +22,6 @@
 }
 /* ############  COMMON CAPTION  ################ */
 .commonCaption {
-   
     text-transform: uppercase;
 }
 
