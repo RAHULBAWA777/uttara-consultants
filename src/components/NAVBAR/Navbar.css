@@ -8,7 +8,7 @@
     position: fixed;
     transition:1s;
     z-index: 2;
-    background-image: url(../assets/header-pattern.png);
+    background-image: url(../../assets/header-pattern.png);
 }
 .nav-open{
     left: 0px;

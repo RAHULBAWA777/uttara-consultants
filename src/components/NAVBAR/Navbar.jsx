@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { Outlet, Link } from "react-router-dom";
+
 import './Navbar.css'
 
 
@@ -26,15 +28,26 @@ const Navbar = () => {
       <button  className='navButton' onClick={()=>setIsopen(!isOpen)} ><i className="fa-solid fa-bars"></i></button>
 
       <div className={`nav ${isOpen ? "nav-open" : "nav-closed"}`}>
-        <div id="logo">nwoiendcoiwencoiwnqciop</div>
+        <div id="logo"></div>
         <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">SERVICES</a></li>
-          <li><a href="">PROJECTS</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li>
+            <Link to="/">HOME</Link>
+            </li>
+          <li>
+            <Link to="/About">ABOUT</Link>
+            </li>
+          <li>
+            <Link to="/Services">SERVICES</Link>
+            </li>
+          <li>
+            <Link to="/Projects">PROJECTS</Link>
+            </li>
+          <li>
+            <Link to="">CONTACT</Link>
+            </li>
         </ul>
       </div>
+      <Outlet />
     </>
   )
 }

@@ -27,10 +27,10 @@ const Carousel = () => {
 
             <OwlCarousel className='owl-theme' items={1} width={78} height={100} dots={false} autoplay={true} lazyLoad={true} >
         
-                <div className='item'><h1>Innovate Designing in Toronto</h1>
+                <div className='item'><h1>Innovate Designing</h1>
                 <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/1.jpg" alt="img" /></div>
 
-                <div className='item'><h1>Innovate Designing in Toronto</h1>
+                <div className='item'><h1>Innovate Designing</h1>
                 <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/projects/2.jpg" alt="img" /></div>
             </OwlCarousel>;
 

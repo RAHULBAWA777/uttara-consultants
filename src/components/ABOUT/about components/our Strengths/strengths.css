@@ -1,0 +1,12 @@
+.lists>li{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    /* background-color: aqua; */
+}
+
+@media screen and (max-width:1024px) {
+  .list>li{
+    font-size: 1rem;
+  }
+}

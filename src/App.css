@@ -28,3 +28,42 @@ html{
   .pad{
     padding: 3rem 2rem;
   }
+
+  /* ############  COMMON HEADER  ################ */
+.commonHeading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.commonHeading:first-child span {
+  color: whitesmoke;
+}
+
+.commonHeading:nth-child(1) {
+  color: var(--main-color);
+}
+/* ############  COMMON CAPTION  ################ */
+.commonCaption {
+  text-transform: uppercase;
+}
+
+.commonCaption:first-child p {
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.commonCaption:nth-child(1) {
+  color: var(--main-color);
+  font-size: 1rem;
+}
+
+.commonPara {
+  color: var(--secondary-color);
+  font-size: large;
+  line-height: 2rem;
+}
+
+.marginTop{
+  margin-top: 15rem;
+}

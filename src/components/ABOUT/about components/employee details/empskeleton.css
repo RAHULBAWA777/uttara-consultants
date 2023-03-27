@@ -1,0 +1,78 @@
+.EmpCardsWrapper {
+    /* background-color: antiquewhite; */
+    width: 100%;
+}
+
+#empSkeletonWrapper {
+    /* background-color: rgb(86, 137, 182); */
+    padding: 1rem;
+    /* width: max-content; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.empCardWrapperSemi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empSkeletonWrapperSemi {
+    /* background-color: aqua; */
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.empSkeletonWrapperSemi>img {
+    width: 20rem;
+}
+
+.empCaption{
+    margin-top: 1rem;
+}
+
+.empCaption>p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.empCaption>span {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+    .empSkeletonWrapperSemi>img {
+        width: 17rem;
+    }
+
+    .empCaption>p {
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+
+    .empCaption>span {
+        color: var(--main-color);
+        font-size: 1.5rem;
+    }
+}
+
+/* ==========MEDIA QUERIES (small devices) ========= */
+@media screen and (max-width:600px) {}
