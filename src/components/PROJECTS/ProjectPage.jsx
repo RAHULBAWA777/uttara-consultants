@@ -5,7 +5,6 @@ import Navbar from '../NAVBAR/Navbar'
 import Footer from '../FOOTER/Footer'
 import ProjectData from '../Project Showcase skeleton/ProjectContent'
 
-
 const createCard = (data) => {
   return <ProShowcaseSkeleton name={data.name} img={data.imgURL} location={data.location} key={data.id} />
 }
@@ -13,7 +12,7 @@ const createCard = (data) => {
 const ProjectPage = () => {
   return (
     <>
-      <div id="projectPageWrapper" >
+      <div id="projectPageWrapper">
         <div className="bg-image"></div>
         <Navbar />
         <div className="marginTop">

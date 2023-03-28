@@ -39,3 +39,13 @@
         opacity: 1;
     }
 }
+
+
+
+@media screen and (max-width:1024px) {
+    #projectCardsWrapper>img {
+        max-height: 12rem;
+        object-fit: cover;
+    }
+        
+}

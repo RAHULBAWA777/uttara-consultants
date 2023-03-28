@@ -9,7 +9,7 @@ import ProjectData from '../Project Showcase skeleton/ProjectContent'
 
 
 const createCard = (data) => {
-  return <ProShowcaseSkeleton name={data.name} img={data.imgURL} location={data.location} key={data.id} />
+  return <ProShowcaseSkeleton  name={data.name} img={data.imgURL} location={data.location} key={data.id} />
 }
 
 const OurProjects = () => {
