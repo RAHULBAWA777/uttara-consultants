@@ -8,7 +8,9 @@
 }
 
 .bg-image {
-    background-image: url(https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/about.jpg);
+    background-image: url(../../assets/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     z-index: -1;

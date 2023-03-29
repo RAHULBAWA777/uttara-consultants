@@ -1,9 +1,11 @@
 import React from 'react'
 import './proshowcaseSkeleton.css'
-
+// import p1 from '../../assets/1.jpg'
+// import p2 from '../../assets/2.jpg'
+// import p3 from '../../assets/3.jpg'
 
 const proShowcase = (props) => {
-   
+
     return (
         <>
             <div id="projectCardsWrapper">

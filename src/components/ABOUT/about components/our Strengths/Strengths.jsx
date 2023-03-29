@@ -6,7 +6,7 @@ const Strengths = () => {
     <>
       <div id="strengthWapper">
         <div className="pad">
-          <h1 className='commonHeading'><span>our</span>Strengths</h1>
+          <h1 className='commonHeading'><span>our </span>Strengths</h1>
           <ul className='lists'>
             <li>We have Most experienced people in different kind of Architectural Engineering and Interior Services.</li>
             <li>Friendly work Environment.</li>
