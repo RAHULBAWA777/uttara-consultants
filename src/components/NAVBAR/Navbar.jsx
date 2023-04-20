@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Outlet, Link } from "react-router-dom";
+import logo from '../../assets/UTTARA CAD LOGO.png'
 
 import './Navbar.css'
 
@@ -28,7 +29,9 @@ const Navbar = () => {
       <button className='navButton' onClick={() => setIsopen(!isOpen)} ><i className="fa-solid fa-bars"></i></button>
 
       <div className={`nav ${isOpen ? "nav-open" : "nav-closed"}`}>
-        <div id="logo"></div>
+
+        
+        <div id="logo"><img src={logo} alt="" /></div>
         <ul>
           <li>
             <Link to="/">HOME</Link>
