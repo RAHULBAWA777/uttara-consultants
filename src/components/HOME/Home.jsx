@@ -9,6 +9,7 @@ import Map from './EMBEDED MAP/Map'
 import './home.css'
 import ListView from './ListView'
 import OurProjects from './OurProjects'
+import Sponsors from '../MARQUEE/Sponsors'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <div id="homeMainDiv">
         <Navbar />
         <Carousel />
+        <Sponsors/>
         <About />
         <OurProjects />
         <ListView />

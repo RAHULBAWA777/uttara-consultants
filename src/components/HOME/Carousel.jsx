@@ -2,9 +2,9 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import p1 from '../../assets/1.jpg'
-import p2 from '../../assets/2.jpg'
-import p3 from '../../assets/3.jpg'
+import p1 from '../../assets/images for website/low others/GATE HIGH.jpg'
+import p2 from '../../assets/images for website/low others/1.jpg'
+import p3 from '../../assets/images for website/low others/natura 3.jpg'
 import './carousel.css'
 
 
@@ -23,7 +23,7 @@ const Carousel = () => {
                 <div className='item'><h1>Innovate Designing</h1>
                     <img src={p3} alt="img" /></div>
             </OwlCarousel>;
-
+    
         </>
     )
 }
