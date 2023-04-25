@@ -7,13 +7,13 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-     <div className="bg-image"></div>
-     <Navbar/>
-     <div id="contactWrapper">
-     <h1 className="commonHeading"><span>Contact </span>us</h1>
-        <Form/>
-        <Footer/>
-        </div>   
+      <div className="bg-image"></div>
+      <Navbar />
+      <div id="contactWrapper">
+        <h1 className="commonHeading"><span>Contact </span>us</h1>
+        <Form />
+        <Footer />
+      </div>
     </>
   )
 }

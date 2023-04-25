@@ -6,7 +6,7 @@ const EmpSkeleton = (props) => {
     <>
       <div id="empSkeletonWrapper">
         <div className="empSkeletonWrapperSemi">
-          <img src="https://duruthemes.com/demo/html/bauen/multipage-darksidebar/img/team/1.jpg" alt="empimg" />
+          <img src={props.img} alt="empimg" />
           <h1 className="empCaption"><p>{props.name}</p><span>{props.des}</span></h1>
         </div>
       </div>

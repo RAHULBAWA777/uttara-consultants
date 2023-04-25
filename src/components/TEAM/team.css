@@ -1,0 +1,8 @@
+#teamPageWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 75%;
+    background: rgb(39,39,39);
+    background: linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(39,39,39,0.8229342762495624) 100%);   
+}

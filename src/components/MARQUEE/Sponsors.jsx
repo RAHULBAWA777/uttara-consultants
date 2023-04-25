@@ -19,7 +19,7 @@ const Sponsors = () => {
       <img style={imgStyle2} src="https://seeklogo.com/images/C/cpwd-logo-51F0BE53D4-seeklogo.com.png" alt="" />
       <img style={imgStyle2} src="https://is1-2.housingcdn.com/0b8ad14c/c6c0511abac462ad907ad2afaebf7716/v1/medium.jpg" alt="" />
       </Marquee>
-      </div>
+    </div>
     </>
   )
 }

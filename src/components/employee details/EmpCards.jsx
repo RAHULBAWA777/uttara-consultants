@@ -5,7 +5,7 @@ import './empskeleton.css'
 
 
 const createEmpCards = (data) => {
-  return <EmpSkeleton name={data.name} des={data.des} key={data.id} />
+  return <EmpSkeleton name={data.name} des={data.des} img={data.img} key={data.id} />
 }
 const EmpCards = () => {
   return (

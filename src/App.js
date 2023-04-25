@@ -5,6 +5,7 @@ import AboutPage from './components/ABOUT/AboutPage';
 import ServicesPage from './components/SERVICES/ServicesPage';
 import ProjectPage from './components/PROJECTS/ProjectPage';
 import Contact from './components/CONTACT/Contact';
+import Team from './components/TEAM/Team';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/Services" element={<ServicesPage/>} />
           <Route exact path="/Projects" element={<ProjectPage/>} />
           <Route exact path="/Contact" element={<Contact/>} />
+          <Route exact path="/Team" element={<Team/>} />
           
         </Routes>
       </Router>
