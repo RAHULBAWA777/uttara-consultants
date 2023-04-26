@@ -8,7 +8,7 @@ const Team = () => {
     <>
      {/* <div className="bg-image"></div> */}
         <Navbar/>
-     <div id='teamPageWrapper' className="pad">
+     <div id='teamPageWrapper'>
         <EmpCards/>
         <Footer/>
         </div>

@@ -1,12 +1,9 @@
 .EmpCardsWrapper {
-    /* background-color: antiquewhite; */
     width: 100%;
 }
 
 #empSkeletonWrapper {
-    /* background-color: rgb(86, 137, 182); */
     padding: 1rem;
-    /* width: max-content; */
     margin-left: 10%;
     display: flex;
     flex-direction: row;
@@ -51,15 +48,10 @@
     font-weight: 100;
 }
 
-
-
-
-
-
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
     .empSkeletonWrapperSemi>img {
-        width: 17rem;
+        /* width: 12rem; */
     }
 
     .empCaption>p {
