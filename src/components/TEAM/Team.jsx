@@ -6,9 +6,9 @@ import Footer from '../FOOTER/Footer'
 const Team = () => {
   return (
     <>
-     {/* <div className="bg-image"></div> */}
-        <Navbar/>
      <div id='teamPageWrapper'>
+     <div className="bg-image"></div>
+        <Navbar/>
         <EmpCards/>
         <Footer/>
         </div>

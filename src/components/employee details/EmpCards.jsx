@@ -11,10 +11,12 @@ const EmpCards = () => {
   return (
     <>
       <div className="EmpCardsWrapper pad">
+        <div className="marginTop">
         <h1 className='commonHeading'><span>our</span> Team</h1>
         <div className="empCardWrapperSemi">
           {EmpData.map(createEmpCards)}
         </div>
+      </div>
       </div>
     </>
   )

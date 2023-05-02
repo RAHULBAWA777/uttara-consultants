@@ -1,4 +1,4 @@
-#aboutPageWrapper {
+#intPageWrapper{
     display: flex;
     flex-direction: column;
     margin-left: 25%;
@@ -6,7 +6,16 @@
     background: rgb(39,39,39);
     background: linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(39,39,39,0.8229342762495624) 100%);   
 }
+.intPageWrapperSemi{
+     display: flex;
+     flex-wrap: wrap;
 
+}
+.intPageWrapperSemi>img{
+height: 22rem;
+padding: 1rem;
+width: 30rem;
+}
 .bg-image {
     background-image: url(../../assets/images\ for\ website/low\ commercial/1.jpg);
     background-size: contain;
@@ -16,14 +25,14 @@
     z-index: -1;
     position: fixed;
 }
-
-
 @media screen and (max-width:1024px) {
-    #aboutPageWrapper {
+    #intPageWrapper {
         margin-left: 0;
         width: 100%;
     }
-    .commonHeading{
-        font-size: 3rem;
-    }
+    .intPageWrapperSemi>img{
+        height: auto;
+        padding: 1rem;
+        width: 21rem;
+        }
 }

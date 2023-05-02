@@ -10,6 +10,7 @@
 #projectCardsWrapper>img {
 height: 20rem;
     object-fit: cover;
+    
 }
 
 #projectCardsWrapper>img:hover {
@@ -44,7 +45,7 @@ height: 20rem;
 
 @media screen and (max-width:1024px) {
     #projectCardsWrapper>img {
-        max-height: 12rem;
+        max-height: 10rem;
         object-fit: cover;
     }
         

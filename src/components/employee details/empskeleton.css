@@ -51,7 +51,7 @@
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
     .empSkeletonWrapperSemi>img {
-        /* width: 12rem; */
+        height: 22rem;
     }
 
     .empCaption>p {
