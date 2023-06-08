@@ -1,7 +1,7 @@
 .lists {
   background: rgb(177, 151, 119);
   background: linear-gradient(0deg, rgba(177, 151, 119, 1) 0%, rgba(39, 39, 39, 0.9349790941767332) 100%);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 20px;
 }
 
@@ -20,5 +20,6 @@
 
   .lists {
     width: 100%;
+    padding: 2rem;
   }
 }

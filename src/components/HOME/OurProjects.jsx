@@ -13,11 +13,28 @@ const createCard = (data) => {
 }
 
 const OurProjects = () => {
+  const options = {
+    
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 2,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  };
   return (
     <>
       <div id="ourProjectWrapper" className='pad'>
         <h1 className="commonHeading"><span>Our </span>projects</h1>
-        <OwlCarousel className='owl-theme' items={3} width={78} height={100} dots={true} autoplay={true} lazyLoad={true}  >
+        <OwlCarousel className='owl-theme' items={3} width={78} height={100} dots={true} autoplay={true} lazyLoad={true} loop={true} {...options}>
           {ProjectData.map(createCard)}
         </OwlCarousel>;
       </div>

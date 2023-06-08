@@ -30,7 +30,6 @@ const Navbar = () => {
 
       <div className={`nav ${isOpen ? "nav-open" : "nav-closed"}`}>
 
-        
         <div id="logo"><img src={logo} alt="" /></div>
         <ul>
           <li>
