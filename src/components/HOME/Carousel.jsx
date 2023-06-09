@@ -14,7 +14,7 @@ const Carousel = () => {
     return (
         <>
 
-            <OwlCarousel className='owl-theme' items={1} width={78} height={100} dots={false} autoplay={true} lazyLoad={true} autoPlay={true}>
+            <OwlCarousel className='owl-theme' items={1} dots={false} autoplay={true} lazyLoad={true} autoPlay={true} loop={true}>
 
                 <div className='item'><h1>Innovate Designing</h1>
                     <img src={p1} alt="img" /></div>

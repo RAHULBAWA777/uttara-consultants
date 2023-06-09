@@ -16,7 +16,7 @@ const Strengths = () => {
             <li>Well qualified Employees. For all Building Services.</li>
             <li>Over 15 years of Experience in Construction sector.</li>
             <li>We are Pioneers in Construction, Design & Interiors more than a Decade.</li>
-            <li>Customized Designs, Standards as per the Customer Requirement and well recognized in the Construction Industry</li>
+            <li>Customized Designs, Standards as per the Customer Requirement and well recognized in the Construction Industry.</li>
           </ul>
         </div>
       </div>

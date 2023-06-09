@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
- 
-  *{
+
+  * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,62 +8,126 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-   }
-html{
-  scroll-behavior:smooth;
-}
-::-webkit-scrollbar{
-  display: none;
-}
-:root{
-  --main-bg:rgb(39, 39, 39);
-  --main-color:rgb(177,151,119);
-  --secondary-color: rgb(153,153,153);
-}
-  body{
-    background-color:var(--main-bg) ;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  :root {
+    --main-bg: rgb(39, 39, 39);
+    --main-color: rgb(177, 151, 119);
+    --secondary-color: rgb(153, 153, 153);
+  }
+
+  body {
+    background-color: var(--main-bg);
     font-family: 'Oswald', sans-serif;
   }
 
-  .pad{
-    padding: 3rem 2rem;
+  .pad {
+    padding: 0 4rem;
+    padding-top: 10rem;
+    /* background-color: aliceblue; */
   }
 
   /* ############  COMMON HEADER  ################ */
-.commonHeading {
-  font-size: 4rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
+  .commonHeading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+  }
 
-.commonHeading:first-child span {
-  color: whitesmoke;
-}
+  .commonHeading:first-child span {
+    color: whitesmoke;
+  }
 
-.commonHeading:nth-child(1) {
-  color: var(--main-color);
-}
-/* ############  COMMON CAPTION  ################ */
-.commonCaption {
-  text-transform: uppercase;
-}
+  .commonHeading:nth-child(1) {
+    color: var(--main-color);
+  }
 
-.commonCaption:first-child p {
-  color: whitesmoke;
-  font-size: 1.5rem;
-}
+  /* ############  COMMON CAPTION  ################ */
+  .commonCaption {
+    text-transform: uppercase;
+  }
 
-.commonCaption:nth-child(1) {
-  color: var(--main-color);
-  font-size: 1rem;
-}
+  .commonCaption:first-child p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
 
-.commonPara {
-  color: var(--secondary-color);
-  font-size: large;
-  line-height: 2rem;
-}
+  .commonCaption:nth-child(1) {
+    color: var(--main-color);
+    font-size: 1rem;
+  }
 
-.marginTop{
-  margin-top: 15rem;
-}
+  .commonPara {
+    color: var(--secondary-color);
+    font-size: large;
+    line-height: 2rem;
+  }
+
+  .marginTop {
+    margin-top: 15rem;
+  }
+
+
+  /* ********************************************************* */
+
+  /* MEDIA QUESRIES */
+
+  /* ==========MEDIA QUERIES (medium devices) ========= */
+  @media screen and (max-width:1024px) {
+
+    .pad {
+      padding: 6rem 2rem;
+      /* background-color: aliceblue; */
+    }
+
+    /* ############  COMMON HEADER  ################ */
+    .commonHeading {
+      font-size: 4rem;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+    }
+
+    .commonHeading:first-child span {
+      color: whitesmoke;
+    }
+
+    .commonHeading:nth-child(1) {
+      color: var(--main-color);
+    }
+
+    /* ############  COMMON CAPTION  ################ */
+    .commonCaption {
+      text-transform: uppercase;
+    }
+
+    .commonCaption:first-child p {
+      color: whitesmoke;
+      font-size: 1.5rem;
+    }
+
+    .commonCaption:nth-child(1) {
+      color: var(--main-color);
+      font-size: 1rem;
+    }
+
+    .commonPara {
+      color: var(--secondary-color);
+      font-size: large;
+      line-height: 2rem;
+    }
+
+    .marginTop {
+      margin-top: 15rem;
+    }
+
+  }

@@ -6,7 +6,7 @@ import './Navbar.css'
 
 
 const Navbar = () => {
-  const [isOpen, setIsopen] = useState(true);
+  const [isOpen, setIsopen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     }
   }, [isOpen])
-
+  
 
   // ##########################################
   return (

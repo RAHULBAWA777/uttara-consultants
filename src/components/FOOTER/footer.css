@@ -3,10 +3,13 @@
     background: linear-gradient(0deg, rgba(176, 150, 118, 1) 0%, rgba(39, 39, 39, 1) 100%);
 
     display: flex;
+  margin-top: 3rem;
 }
 
 .foot {
     width: 50%;
+    margin-bottom: 2rem;
+    font-size: 1rem;
 }
 
 .foot>ul>h2 {
@@ -34,6 +37,7 @@
  .foot{
     width: 100%;
     margin-top: 1rem;
+    margin-bottom: 0;
  }
 }
 

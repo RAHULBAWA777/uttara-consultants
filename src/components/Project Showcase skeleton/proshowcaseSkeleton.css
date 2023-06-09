@@ -8,9 +8,11 @@
 }
 
 #projectCardsWrapper>img {
-height: 20rem;
     object-fit: cover;
-    
+    height: 22rem;
+    padding: 1rem;
+    width: 40rem;
+
 }
 
 #projectCardsWrapper>img:hover {
@@ -32,11 +34,13 @@ height: 20rem;
     display: block;
     bottom: -1rem;
 }
-@keyframes hideMe{
-    0%{
+
+@keyframes hideMe {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
@@ -45,8 +49,9 @@ height: 20rem;
 
 @media screen and (max-width:1024px) {
     #projectCardsWrapper>img {
-        max-height: 10rem;
+        height: 20rem;
         object-fit: cover;
+        width: 20rem;
     }
-        
+
 }

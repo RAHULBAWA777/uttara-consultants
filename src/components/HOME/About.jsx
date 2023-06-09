@@ -16,6 +16,19 @@ const About = () => {
                         etc., Uttara continues to play an integral role in many high profile
                         projects in India, including Project Management, Civil & Structural
                         Engineering.</p>
+                        <br />
+                    <p className="commonPara">
+                        The Company has professionals with vast experienced team of
+                        professionals specializations in, Marketing, Construction, Project
+                        Management, Business Development, Engineering, Reverse Engineering
+                        for Telecom, Structural Design, Interior Design and so on. We are backed
+                        by state of the art infrastructure to provide the best Architectural &
+                        Engineering services. The staff has undergone extensive training and
+                        are experienced in the evaluation of projects, development of
+                        engineering design, cost estimates, contract administration, inspection
+                        services and complete project management services.
+
+                    </p>
                 </div>
                 <div className="aboutRight">
                     <img src={bussinessCard} alt="bussinessCard" />

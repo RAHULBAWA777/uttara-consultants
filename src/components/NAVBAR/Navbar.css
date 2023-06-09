@@ -24,7 +24,7 @@
     background-color: var(--main-color);
     padding: 1rem;
     border-radius: 100%;
-    display: none;
+    display: block;
 }
 #logo{
     color: var(--main-color);

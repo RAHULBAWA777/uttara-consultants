@@ -28,8 +28,8 @@
 }
 
 .empSkeletonWrapperSemi>img {
-    width: 20rem;
-    height: 25rem;
+    width: 30rem;
+    height: 35rem;
 }
 
 .empCaption{
@@ -52,6 +52,7 @@
 @media screen and (max-width:1024px) {
     .empSkeletonWrapperSemi>img {
         height: 22rem;
+        width: 18rem;
     }
 
     .empCaption>p {
