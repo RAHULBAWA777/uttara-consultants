@@ -16,6 +16,7 @@ const proShowcase = (props) => {
             </div>
         </>
     )
+    
 }
 
 export default proShowcase

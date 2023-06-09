@@ -8,11 +8,11 @@
 }
 
 #projectCardsWrapper>img {
-    object-fit: cover;
-    height: 22rem;
+    object-fit: contain;
+    height: 20rem;
     padding: 1rem;
-    width: 40rem;
-
+    /* width: 40rem; */
+   
 }
 
 #projectCardsWrapper>img:hover {
