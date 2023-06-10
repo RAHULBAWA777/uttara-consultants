@@ -16,7 +16,7 @@ const Sponsors = () => {
 
     <>
       <div className="pad">
-        <h1 className="commonHeading"><span>Our </span>Sponsors</h1>
+        <h1 className="commonHeading"><span>Our </span>Clients</h1>
         <Marquee>
           <img style={imgStyle} src="https://zeevector.com/wp-content/uploads/2021/02/Titan-Logo-PNG.png" alt="" />
           <img style={imgStyle} src="https://download.logo.wine/logo/Bharat_Sanchar_Nigam_Limited/Bharat_Sanchar_Nigam_Limited-Logo.wine.png" alt="" />

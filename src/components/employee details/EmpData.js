@@ -14,8 +14,8 @@ const EmpData = [
     {
         id:3,
         img:require("../../assets/team/5.jpg"),
-        name:'Mr.Karunakar',
-        des:'.'
+        name:'Mr.Karunakar (M.Tech)',
+        des:'Director Projects'
     },
     {
         id:4,
