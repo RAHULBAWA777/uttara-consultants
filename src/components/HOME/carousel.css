@@ -68,13 +68,13 @@
         position: absolute;
         margin: 7rem 2rem;
         z-index: 2;
-        font-size: 2rem;
+        font-size: 1.5rem;
         min-height: fit-content;
         width: fit-content;
         display: flex;
         align-items: center;
         justify-content: center;
         text-transform: uppercase;
-        letter-spacing: 1.5rem;
+        letter-spacing: 1rem;
     }
 }

@@ -19,16 +19,16 @@ const Carousel = () => {
                 <div className='item'><h1>Innovate Designing</h1>
                     <img src={p1} alt="img" /></div>
 
-                <div className='item'><h1>Innovate Designing</h1>
+                <div className='item'><h1>Here’s to your New Beginning!</h1>
                     <img src={p2} alt="img" /></div>
 
-                <div className='item'><h1>Innovate Designing</h1>
+                <div className='item'><h1>Exceptional Service Exceeding Expectations</h1>
                     <img src={p3} alt="img" /></div>
 
-                <div className='item'><h1>Innovate Designing</h1>
+                <div className='item'><h1>Multi-Disciplined Engineering Solutions</h1>
                     <img src={p4} alt="img" /></div>
                     
-                <div className='item'><h1>Innovate Designing</h1>
+                <div className='item'><h1>Next Level Interior Designing</h1>
                     <img src={p5} alt="img" /></div>
 
             </OwlCarousel>;
