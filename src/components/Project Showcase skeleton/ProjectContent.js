@@ -6,7 +6,7 @@ const ProjectData = [
         id:1,
         name : "BHONODAYA CRYSTAL",
         imgURL : require("../../assets/images for website/low commercial/4.jpg"),
-        location : "BHONODAYA CRYSTAL LOCATED AT GUNDLAPOCHAM PALLY , KOMPALLY, HYDERAD"
+        location : " GUNDLAPOCHAM PALLY , KOMPALLY, HYDERAD"
     },
     {
         id:2,
