@@ -64,7 +64,7 @@
 /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
     .item>h1 {
-        /* color: rgb(209, 48, 48); */
+        color: var(--main-color);
         position: absolute;
         margin: 7rem 2rem;
         z-index: 2;
