@@ -6,7 +6,7 @@ const About = () => {
         <>
             <div className='aboutWrapper pad'>
                 <div className="aboutLeft">
-                    <h1 className='commonHeading'><span>about</span> uttara</h1>
+                    <h1 className='commonHeading'><span>about</span> uttara consultants</h1>
                     <p className="commonPara">The Company has a wide range of experience in offering Architecture
                         Consultancy, Services for Engineering Intensive Construction Projects
                         like Commercial Complexes, High Rise Buildings, Residential Projects,
