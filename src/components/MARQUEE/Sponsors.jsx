@@ -2,8 +2,8 @@ import React from 'react'
 import Marquee from "react-fast-marquee";
 import './sponsors.css'
 import b1 from '../../assets/brands/cropped-new-siddharth-developers-logo.png'
-import b2 from '../../assets/brands/image-233.jpg'
-import b3 from '../../assets/brands/image-332.png'
+import b2 from '../../assets/brands/1620291123632.jpeg'
+import b3 from '../../assets/brands/maxresdefault.jpg'
 const Sponsors = () => {
   
     const imgStyle = {
